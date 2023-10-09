@@ -1,12 +1,16 @@
+/** ------------------ IMPORTING CSS ------------------ **/
 import "./index.css";
+/** ------------------ IMPORTING COMPONENTS ------------------ **/
 import Dropdown from "./Dropdown/dropdown";
+
 
 function App() {
   return (
     <div className="app">
-      Welcome to the react app
+      <Dropdown />
     </div>
   );
 }
 
+/** ------------------ EXPORTING MODULES ------------------ **/
 export default App;
