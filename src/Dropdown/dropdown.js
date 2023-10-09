@@ -36,7 +36,8 @@ function Dropdown() {
             <h3 className={Style.selectedOption}>{selectedOption}</h3>
             <button
                 className={Style.dropdownButton}
-                onClick={handleDropdownToggle}>
+                onClick={handleDropdownToggle}
+                onMouseEnter={()=>{setDropdownOpen(true)}}>
                 Select
             </button>
             {isDropdownOpen && (
